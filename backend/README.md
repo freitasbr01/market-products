@@ -1,7 +1,7 @@
 <h2 align="center">Market</h2>
 
 <h1 align="center">
-    <img width="600px" alt="Market" title="#Market" src="" />
+    <img width="600px" alt="Market" title="#Market" src="https://github.com/freitasbr01/market-products/blob/main/frontend/src/assets/project_market.png" />
 </h1>
 
 <p align="center">
@@ -12,7 +12,8 @@
 
 ## 💻 Sobre o projeto
 
-Nesse projeto foi desenvolvido um recurso de  cadastro de produtos para um site de mercado virtual. A plataforma permite aos usuários inserir detalhes como nome, descrição, valor e disponibilidade dos produtos. Após o cadastro, os usuários são redirecionados para uma página que lista todos os produtos registrados. O site é responsivo, proporcionando uma experiência visual otimizada em todos os dispositivos. Segui o princípio da separação de responsabilidades para garantir um código organizado e de fácil manutenção.
+Nesse projeto foi desenvolvido um recurso de  cadastro de produtos para um site de mercado virtual. A plataforma permite aos usuários inserir detalhes como nome, descrição, valor e disponibilidade dos produtos. Após o cadastro, os usuários são redirecionados para uma página que lista todos os produtos registrados. O site é responsivo, proporcionando uma experiência visual otimizada em todos os dispositivos. Também foi utilizado o princípio da separação de responsabilidades para garantir um código organizado e de fácil manutenção.
+
 
 Link de acesso - <a href="">Market</a>
 
@@ -21,7 +22,6 @@ Link de acesso - <a href="">Market</a>
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
-
 
 - **JavaScript**
 - **NodeJS**
