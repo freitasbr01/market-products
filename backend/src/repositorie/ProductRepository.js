@@ -13,7 +13,7 @@ class ProductRepository {
   async findAll() {
     const products = await knex("products")
     .select("name", "description", "price")
-    .orderBy("name") 
+    .orderBy("price", "asc") 
 
     return products;
   }

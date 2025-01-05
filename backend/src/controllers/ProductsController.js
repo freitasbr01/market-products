@@ -18,7 +18,7 @@ class ProductsController {
     const productRepository = new ProductRepository();
     const productFindAllService = new ProductFindAllService(productRepository)
     const products = await productFindAllService.execute();
-
+    
     return response.json(products);
   }  
 }
