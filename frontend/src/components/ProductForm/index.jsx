@@ -21,7 +21,7 @@ export function ProductForm({...rest}) {
   async function handleNewProduct(event) {
     event.preventDefault();
 
-    const priceFloat = parseFloat(price);
+    const priceFloat = parseFloat(price.replace(",", "."));
     if (isNaN(priceFloat)) {
       alert('Por favor, insira um valor numérico válido para o preço.');
       return;
@@ -30,7 +30,7 @@ export function ProductForm({...rest}) {
     
     await api.post("/products", {
       name,
-      price: `R$ ${formattedPrice}`,
+      price: formattedPrice,
       description
     });
 

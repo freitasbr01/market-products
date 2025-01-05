@@ -98,7 +98,16 @@ export const Thead = styled.thead`
   }
 `
 
+/* export const Scrollbar = styled.div`
+  max-height: 45rem;
+  overflow-y: auto;
+` */
+
 export const Tbody = styled.tbody`
+
+
+
+  
   tr {
     display: table;
     width: 100%;

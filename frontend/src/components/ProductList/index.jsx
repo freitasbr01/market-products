@@ -13,7 +13,7 @@ export function ProductList() {
   function handleNewProduct() {
     navigate('/');
   }
-
+  
   useEffect(() => {
     async function fetchProducts() {
       const response = await api.get(`/products/list`)
@@ -45,14 +45,14 @@ export function ProductList() {
 
                 <Tbody>
                   <div className="scrollbar">
-                    {data.map(product => (
-                      <tr key={product.id}>
+                    {data.map((product, index) => (
+                      <tr key={product.id || index}>
                         <td>{product.name}</td>
-                        <td>{product.price}</td>
+                        <td>{`R$ ${Number(product.price).toFixed(2).replace('.', ',')}`}</td>
                         <td>{product.description}</td>
                       </tr>
                     ))}
-                  </div>
+                    </div>
                 </Tbody>
               </Table>
 
